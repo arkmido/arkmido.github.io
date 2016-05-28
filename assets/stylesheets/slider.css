@@ -62,10 +62,6 @@
 #slide2 {
 	width: 100%;
 }
-#slide1:before {
-	content: "";
-	position: fixed;
-}
 #slide1 {
 	background: url("../img/bg1.jpg") 50% 0 no-repeat fixed;
 	color: #fff;
@@ -73,8 +69,6 @@
 	margin: 0;
 	padding: 200px 0 260px 0;
 	z-index: -10;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
 	background-size: cover;
 }
 #slide2 {
