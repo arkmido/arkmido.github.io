@@ -1,0 +1,110 @@
+/*	--------------
+	Main 
+	--------------
+*/
+body {
+	background: #222;
+	font-family: Helvetica, sans-serif;
+}
+
+/*
+	--------------
+	General Section
+	--------------
+*/
+.content {
+	margin: 0 auto;
+	width: 960px;
+}
+h1 { font-size: 80px; }
+h2 { font-size: 40px; }
+h3 { font-size: 22px; }
+
+h1,
+h2,
+h3 {
+	padding-bottom: 15px;
+}
+
+/*
+	--------------
+	Clear-Fix 
+	--------------
+*/
+.clear-fix:before,
+.clear-fix:after {
+	content: "";
+	display: table;
+}
+.clear-fix:after {
+	clear: both;
+}
+.clear-fix {
+	clear: both;
+	*zoom: 1;
+}
+
+
+/*
+	--------------
+	Welcome Section
+	--------------
+*/
+.welcome-section {
+	text-align: center;
+}
+.contact-nav {
+	padding: 30px;
+}
+.contact-nav li {
+	display: inline-block;
+	margin: 10px 20px;
+	vertical-align: top;
+}
+.contact-nav li a {
+	color: #fff;
+	font-size: 16px;
+}
+
+/*
+	--------------
+	Footer Section
+	--------------
+*/
+.primary-footer {
+	color: #fff;
+	font-size: 14px;
+	padding: 20px 22px;
+	background: #222;
+}
+.primary-footer small {
+	float: left;
+	font-weight: 400;
+}
+.nav-footer {
+	text-align: right;
+}
+.nav-footer li {
+	display: inline-block;
+	margin: 0 10px;
+	vertical-align: top;
+}
+.nav-footer li:last-child {
+	margin-right: 20px;
+}
+.nav-footer li a { color: #999; }
+.nav-footer li a:hover { color: #fff; }
+
+/*
+	--------------
+	Nav/List Links
+	--------------
+*/
+li a {
+	text-decoration: none;
+	transition: .4s;
+}
+li a:hover {
+	transition: .4s;
+}
+
