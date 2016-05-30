@@ -5,7 +5,7 @@
 */
 .header {
 	width: 100%;
-	background: url("../img/header-bg.png");
+	background: rgba(0,0,0, .45);
 	height: 80px;
 	position: fixed;
 	z-index: 2000;
