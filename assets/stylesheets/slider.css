@@ -72,11 +72,15 @@
 	background-size: cover;
 }
 #slide2 {
-	background: #49a09d;
+    background: #fff;
+    background: url("../img/bg3.jpg") 50% 50% no-repeat;
+    background-size: cover;
+    /*
     background: -webkit-linear-gradient(right, #eee, #999, #eee);
     background: -moz-linear-gradient(right, #eee, #999, #eee);
     background: linear-gradient(right, #eee #999, #eee);
-	color: #fff;
+    */
+	color: #eee;
 	height: 600px;
 	margin: 0 auto;
 	overflow: hidden;
