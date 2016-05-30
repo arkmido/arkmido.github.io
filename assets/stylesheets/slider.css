@@ -71,15 +71,12 @@
 	z-index: -10;
 	background-size: cover;
 }
-#slide2 {
-    background: #fff;
-    background: url("../img/bg3.jpg") 50% 50% no-repeat;
-    background-size: cover;
-    /*
-    background: -webkit-linear-gradient(right, #eee, #999, #eee);
-    background: -moz-linear-gradient(right, #eee, #999, #eee);
-    background: linear-gradient(right, #eee #999, #eee);
-    */
+#slide2 {   
+    background: #323232;
+    -moz-box-shadow:    inset -2px 0 50px 10px rgba(0,0,0, .4);
+    -webkit-box-shadow: inset -2px 0 50px 10px rgba(0,0,0, .4);
+   	box-shadow:         inset -2px 0 50px 10px rgba(0,0,0, .4);
+
 	color: #eee;
 	height: 600px;
 	margin: 0 auto;
