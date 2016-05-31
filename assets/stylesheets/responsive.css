@@ -3,7 +3,7 @@
 	Media Queries
 	--------------
 */
-@media screen {
+@media (max-width:720px) {
 	.content {
 		width: 100%;
 	}
