@@ -9,7 +9,7 @@
 	height: 80px;
 	position: fixed;
 	z-index: 2000;
-	border: 2px dashed #00fff0;
+	border: 2px dashed #fff;
 }
 .logo a {
 	color: #fff;
