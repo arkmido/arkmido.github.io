@@ -3,7 +3,7 @@
 	Media Queries
 	--------------
 */
-@media screen and (max-width: 480px) {
+@media screen {
 	.content {
 		width: 100%;
 	}
@@ -14,74 +14,3 @@
 	}
 }
 
-@media screen and (min-width: 720px) and (min-device-height: 1280px) {
-	/* ==== Main ==== */
-	.content {
-		width: 72.5%;
-	}
-	h1 { font-size: 120px; }
-	h2 { font-size: 80px; }
-	h3 { font-size: 62px; }
-
-		/* --- Welcome Section --- */
-		.contact-nav li a {
-			font-size: 50px;
-		}
-
-		/* --- About Me Section --- */
-		.art-gallery > p{
-			font-size: 50px;
-			line-height: 50px;
-		}
-
-	/* ==== portfolio ==== */
-	.code-gallery,
-	.art-gallery {
-		float: none;
-		width: 90%;
-		margin: 0 5% 0 5%;
-	}
-	.code-link {
-		height: 132px;
-		width: 160px;
-		left: 60%;
-	}
-	.code-link-offset {
-		left: 20%;
-	}
-
-	/* ==== scroll / slideshow img ==== */
-	#slideshow {
-		height: 75%;
-	}
-	#pager {
-		height: 90px;
-	}
-
-	/* ==== slider / parallax sections ==== */
-	.header {
-		visibility: hidden;
-	}
-	#slide1,
-	#slide2,
-	#slide3,
-	#slide4 {
-		height: 1920px;
-		padding-top: 40%;
-	}
-	#slide1 .content {
-		width: 100%;
-	}
-	#slide3 {
-		padding-top: 10%;
-	}
-	#slide3 .code-gallery{
-		visibility: hidden;
-	}
-	#slide4 {
-		font-size: 200%;
-	}
-	#slide4 h2{
-		margin-bottom: 12%;
-	}
-}
