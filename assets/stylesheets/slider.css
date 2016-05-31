@@ -9,6 +9,7 @@
 	height: 80px;
 	position: fixed;
 	z-index: 2000;
+	border: 2px dashed #00fff0;
 }
 .logo a {
 	color: #fff;
@@ -33,9 +34,12 @@
 	margin: 0 auto;
 }
 .nav-header li {
-	margin-top: 9px;
+	/*margin-top: 9px;
+	padding-left: 21px;*/
+	margin-top: 2.1%;
+	padding-left: 5.1%;
 	float: left;
-	padding-left: 21px;
+	border: 1px dashed #0f0;
 }
 .nav-header li a {
 	color: #fff;

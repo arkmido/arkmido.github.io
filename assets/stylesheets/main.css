@@ -46,7 +46,7 @@ body {
 .content {
 	margin: 0 auto;
 	width: 62.5%;
-	
+	border: 1px dashed #f0f;
 }
 h1 { font-size: 80px; }
 h2 { font-size: 40px; }
