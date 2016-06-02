@@ -7,11 +7,12 @@ $(document).ready(function(){
 	$('.button-collapse').sideNav();
 	$('.parallax').parallax();
 	$('.slider').slider({fullwidth: false});
+
 	/* End of script ========================== */
 
 
 	/*  ==========================================
-	*	~~ Scroll animate script ~~
+	*	~~ link to scroll animate script ~~
 	*/
 	$('a[href*=\\#').each(function(){
 
