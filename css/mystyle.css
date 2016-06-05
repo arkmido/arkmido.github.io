@@ -4,18 +4,11 @@
 body {
 	text-shadow: 2px 3px 6px rgba(0,0,0, .4);
 }
-main h1 {
-	line-height: 20%;
-	padding: 5% 0 0 0;
-}
+
 main h3.enclose-all-white,
 main h5.enclose-all-white {
 	padding-top: 1%;
 	padding-bottom: 1%;
-}
-section h3,
-section h2 {
-	padding: 2% 0;
 }
 
 /*
@@ -155,7 +148,7 @@ img.circle {
 }
 
 .carousel a img {
-	box-shadow: 4px 4px 12px 5px rgba(0, 0, 0, .4);
+	box-shadow: 3px 3px 4px 1px rgba(0, 0, 0, .4);
 	border-radius: 3px;
 	padding: 0 1px;
 	width: 100%;
@@ -165,7 +158,11 @@ img.circle {
 .slides img {
 	border-radius: 5px;
 }
-
+.row {
+	border-radius: 4px;
+	padding: 5px;
+	margin-top: 10px;
+}
 /*
 *	Custom Gradient Colors
 */
@@ -182,7 +179,7 @@ img.circle {
 	background: linear-gradient(135deg, #43cea2, #185a9d);
 }
 .gradient-main-3 {
-	background: linear-gradient(#16A085, #F4D03F);
+	background: linear-gradient(to right, #65d7e6, #514A9D);
 }
 
 /* Other gradient */
