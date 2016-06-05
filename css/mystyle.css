@@ -3,6 +3,8 @@
 */
 body {
 	text-shadow: 2px 3px 6px rgba(0,0,0, .4);
+	margin: 0;
+	padding: 0;
 }
 
 main h3.enclose-all-white,
@@ -10,13 +12,6 @@ main h5.enclose-all-white {
 	padding-top: 1%;
 	padding-bottom: 1%;
 }
-
-/*
-*	Just some border design
-*	note: place on top to cascade other design
-*/
-
-
 
 /*
 *	Typography
