@@ -16,62 +16,7 @@ main h5.enclose-all-white {
 *	note: place on top to cascade other design
 */
 
-.enclose-left {
-	border-left: 1px solid #777;
-}
-.enclose-right {
-	border-right: 1px solid #777;
-}
-.enclose-top {
-	border-top: 1px solid #777;
-}
-.enclose-bot {
-	border-bottom: 1px solid #777;
-}
-.enclose-all {
-	border: 1px solid #777;
-}
 
-.enclose-all-thick{
-	border: 2.5px solid #777;
-}
-.enclose-bot-thick {
-	border-bottom: 2.5px solid #777;
-}
-
-/* White Color */
-.enclose-left-white {
-	border-left: 1px solid #eaeaed;
-}
-.enclose-right-white {
-	border-right: 1px solid #eaeaed;
-}
-.enclose-top-white {
-	border-top: 1px solid #eaeaed;
-}
-.enclose-bot-white {
-	border-bottom: 1px solid #eaeaed;
-}
-.enclose-all-white {
-	border: 1px solid #eaeaed;
-}
-
-/* white thick */
-.enclose-left-white-thick {
-	border-left: 2.5px solid #eaeaed;
-}
-.enclose-right-white-thick {
-	border-right: 2.5px solid #eaeaed;
-}
-.enclose-top-white-thick {
-	border-top: 2.5px solid #eaeaed;
-}
-.enclose-bot-white-thick {
-	border-bottom: 2.5px solid #eaeaed;
-}
-.enclose-all-white-thick {
-	border: 2.5px solid #eaeaed;
-}
 
 /*
 *	Typography
@@ -160,7 +105,7 @@ img.circle {
 }
 .row {
 	border-radius: 4px;
-	padding: 5px;
+	padding: 10px 2px;
 	margin-top: 10px;
 }
 /*
