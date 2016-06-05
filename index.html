@@ -19,10 +19,10 @@
 	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
 
 </head>
-<body>
+<body class="gradient-main-2">
 	<!-- Header Section -->
 	<header id="header-section" class="z-depth-3">
-		<nav role="navigation">
+		<nav role="navigation" class="gradient-main-1">
 			<div class="nav-wrapper container">
 				<!-- logo and main nav -->
 				<a class="brand-logo" href="#header-section">Mark</a>
@@ -62,7 +62,7 @@
 		</section>
 
 		<!--sample section -->
-		<section class="section gradient-main-1" id="samples">
+		<section class="section gradient-main-2" id="samples">
 			<div class="container">
 				<div class="row white z-depth-2">
 					<h2 class="typo-1 center typo-weight-1"><strong>S</strong>amples</h2>
@@ -338,7 +338,7 @@
 	</main><!-- end of div main section -->
 
 	<!-- Footer Section -->
-	<footer id="contact-footer" class="page-footer my-contacts">
+	<footer id="contact-footer" class="page-footer my-contacts transparent zdepth-top">
 		<div class="container">
 			<div class="row">
 				<div class="col l6 s12">
@@ -377,12 +377,6 @@
 		/*  ==========================================
 		*	~~ Color change script for testing only ~~
 		*/	
-		$color = "gradient-main-1" // color class in string
-		// elements to change color
-		$('body').addClass('gradient-main-3');
-		$('footer').addClass($color);
-		$('header nav').addClass($color);
-
 		$progress_gradient = "grey lighten-2"
 		$('div .progress').each(function(){
 			$(this).addClass($progress_gradient);

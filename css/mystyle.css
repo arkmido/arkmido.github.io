@@ -109,17 +109,20 @@ img.circle {
 
 /* main color */
 .gradient-main-1 {
-	background: -webkit-linear-gradient(135deg, #65d7e6, #514A9D);
-	background: -moz-linear-gradient(135deg, #65d7e6, #514A9D);
-	background: linear-gradient(135deg, #65d7e6, #514A9D);
+	background: -webkit-linear-gradient(45deg, #65d7e6, #514A9D);
+	background: -moz-linear-gradient(45deg, #65d7e6, #514A9D);
+	background: linear-gradient(45deg, #65d7e6, #514A9D);
 }
 .gradient-main-2 {
-	background: -webkit-linear-gradient(135deg, #43cea2, #185a9d);
-	background: -moz-linear-gradient(135deg, #43cea2, #185a9d);
-	background: linear-gradient(135deg, #43cea2, #185a9d);
+	background: -webkit-linear-gradient(#65d7e6, #514A9D);
+	background: -moz-linear-gradient(#65d7e6, #514A9D);
+	background: linear-gradient(#65d7e6, #514A9D);
 }
 .gradient-main-3 {
-	background: linear-gradient(to right, #65d7e6, #514A9D);
+	background: linear-gradient(90deg, #65d7e6, #514A9D);
+}
+.zdepth-top {
+	box-shadow: 0 2px 25px 0 rgba(0, 0, 0, .3);
 }
 
 /* Other gradient */
