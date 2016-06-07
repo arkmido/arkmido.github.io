@@ -45,13 +45,17 @@ p.typo-1 {
 /* footer */
 .my-contacts li a {
 	font-size: 15px;
-	padding-left: 12px;
-	border-left: 2px solid #eaeaed;
+}
+.my-contacts a img {
+	background: #ddd;
+	border-radius: 3px;
+	position: relative;
+	top: 6px;
 }
 .my-contacts li {
 	display: inline-block;
 	float: left;
-	padding-right: 12px;
+	padding-right: 15px;
 }
 
 /* main - section - about me */
